@@ -1,0 +1,1 @@
+print(1 + int("2")) # strong typing, no implicit conversions
