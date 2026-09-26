@@ -1,25 +1,28 @@
-var state = {
-    score: 0
-};
+class Animal {
+        constructor(name){
+                this.name = name
+        }
+        speak(){
+                console.log(`${this.name} makes a sound!`)
+        }
+        static create(name){
+                return new Animal(name);
+        }
+        #secret = "DNA" // private field
+        static version = "1.0.0"
+}
 
-function setup(){
-    const score = document.getElementById("score");
-    state.score = Number(score.innerHTML)
-    const plusButton = document.getElementById("plusButton");
-    plusButton.onclick = ()=>{
-            state.score += 1;
-            score.innerHTML = state.score;;   
-    };
-    const minusButton = document.getElementById("minusButton");
-    minusButton.onclick = ()=>{
-            state.score -= 1;         
-            score.innerHTML = state.score; 
-    };
-    const x2Button = document.getElementById("x2");
-    x2Button.onclick = ()=>{
-            state.score *= 2;
-            score.innerHTML = state.score;; 
-    };
+const horse = new Animal("Rosinante")
+// Classes don't have hoisting
+
+f()
+
+function f(){
+        console.log("Hello")
 
 }
-document.addEventListener("DOMContentLoaded", setup);
+
+// Functions have hoisting
+
+console.log(typeof Animal)
+
