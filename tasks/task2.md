@@ -4,3 +4,5 @@
 - allow user to change number of products (can use + and - buttons)
 - Show the total sum and list of selected products 
 - Use lesson_theater as example.
+
+15 points for the task.
