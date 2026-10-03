@@ -1,0 +1,13 @@
+{
+  "name": "lesson_theater",
+  "version": "1.0.0",
+  "description": "Demo project for data visualization course",
+  "license": "MIT",
+  "author": "",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^8.3.2"
+  }
+}

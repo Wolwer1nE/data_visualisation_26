@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+}
+
+.mainContainer {
+    min-height: 200px;
+    flex-grow: 7;
+
+    padding: 12px;
+}
+
+.asideContainer {
+    min-height: 200px;
+    flex-grow: 5;
+    padding: 12px;
+    font-size: 20px;
+
+}
+
+.rowContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+.seat {
+    font-size: 20px;
+    border: 2px solid;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8px;
+}
+
+.available:hover {
+    background-color: orange;
+}
+
+.taken {
+    background-color: gray
+}
+
+.selected {
+    background-color: gold;
+}
+
+.tier1 {
+    background-color: rgb(25, 138, 25)
+}
+
+.tier2 {
+    background-color: rgb(6, 209, 6)
+}
+
