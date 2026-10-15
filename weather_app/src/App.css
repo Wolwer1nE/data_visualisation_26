@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+  font-family: system-ui, sans-serif;
+  background: #f4f4f4;
+  color: #1e1919
+}
+
+.dashboard{
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  width: 260px;
+  flex-shrink: 0; 
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 24px;
+  color: #444
+}
+
+select {
+  padding: 6px;
+  font-size: 18px;
+
+}
