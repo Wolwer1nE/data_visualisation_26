@@ -42,9 +42,9 @@ function makeSeatElement(seat){
     } else {
         if (seat.selected) {
                 seatElement.classList.add("selected");
-            seatElement.onclick = () => {
-                tickSeatInRoom(seat);
-                removeSelectedSeat(seat);
+                seatElement.onclick = () => {
+                    tickSeatInRoom(seat);
+                    removeSelectedSeat(seat);
                 replaceRows(room, mainContainer);
 
         }
