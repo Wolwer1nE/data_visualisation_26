@@ -28,6 +28,6 @@ But you can use objects and that is totally fine.
 
 ## Deadline
 
-Deadline is 10-10-2026.
+UPDATE: No deadline.
 
 Submit by sending a link to your GitHub repository or a an HTML file to the instructor in Teams.
